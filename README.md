@@ -3,7 +3,7 @@ This repository contains the code for my front-end React client for my portfolio
 
 Technologies Used
 
-React
-React Router
-HTML/CSS
-Figma
+- React
+- React Router
+- HTML/CSS
+- Figma
