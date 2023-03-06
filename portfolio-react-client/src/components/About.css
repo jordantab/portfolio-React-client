@@ -1,0 +1,99 @@
+.title {
+    position: absolute;
+    font-size: 500%;
+    top: 100%;
+    left: 5%;
+    width: 50%;
+}
+
+.horizontal-line {
+    position: absolute;
+    top: 104%;
+    left: 35%;
+    width: 20%;
+    height: 2px;
+    background-color: black;
+  }
+  
+  
+.about-description {
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    width: 40%;
+    
+    font-size: 125%;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    /* padding-left: 0; */
+}
+
+.grid-list li:before {
+    content: 'x';
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}  
+
+.about-education {
+    position: absolute;
+    top: 110%;
+    left: 55%;
+    width: 40%;
+    
+    font-size: 400%;
+}
+
+.about-education h2 {
+    position: absolute;
+    left: 10%;
+    
+    font-weight: 400;
+    font-size: 50%;
+}
+
+.about-education p {
+    position: absolute;
+    top: 170%;
+    left: 10%;
+
+    font-size: 30%;
+    line-height: 120%;
+}
+
+.about-experience {
+    position: absolute;
+    top: 150%;
+    left: 55%;
+    width: 40%;
+    
+    font-size: 400%;
+}
+
+.about-experience h2 {
+    position: absolute;
+    left: 10%;
+    
+    font-weight: 400;
+    font-size: 50%;
+}
+
+.about-experience p {
+    position: absolute;
+    top: 190%;
+    left: 10%;
+
+    font-size: 30%;
+    line-height: 120%;
+}
+
+.about-bottom {
+    position: absolute;
+    top: 195%;
+    visibility: hidden;
+}
