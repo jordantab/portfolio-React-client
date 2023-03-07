@@ -499,7 +499,7 @@
 
     .about-bottom {
         position: absolute;
-        top: 195%;
+        top: 95%;
         visibility: hidden;
     }
 }

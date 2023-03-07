@@ -1,0 +1,177 @@
+
+@media (max-width: 1440px) {
+    .projects-title {
+        position: absolute;
+        font-size: 450%;
+        top: 190%;
+        left: 5%;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projects-horizontal-line {
+        position: absolute;
+        top: 195%;
+        left: 45%;
+        width: 15%;
+        height: 3px;
+        background-color: black;
+    }
+
+    .fsd {
+        position: absolute;
+        top: 202%;
+        left: 52%;
+
+        font-size: 120%;
+        font-family: 'Raleway';
+        cursor: pointer;
+    }
+    
+    .ml {
+        position: absolute;
+        top: 202%;
+        left: 72%;
+
+        font-size: 120%;
+        font-family: 'Raleway';
+        cursor: pointer;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 205%;
+        left: 50%;
+        width: 35%;
+        height: 3px;
+        background-color: #DCD5D5;
+    }
+
+    .fsd-bar {
+        position: absolute;
+        top: 205%;
+        left: 50%;
+        width: 19%;
+        height: 3px;
+        background-color: #E63946;
+    }
+
+    .ml-bar {
+        position: absolute;
+        top: 205%;
+        left: 69%;
+        width: 16%;
+        height: 3px;
+        background-color: #E63946;
+    }
+    
+    .for-amd {
+        position: absolute;
+        top: 210%;
+        left: 15%;
+        width: 40%;
+        height: 70%;
+        background-color: #8DA9C4;
+        border-radius: 2%;
+    }
+
+    .for-amd-photo {
+        position: absolute;
+        top: 212%;
+        left: 17%;
+        height: 42%;
+        border-radius: 2%;
+    }
+
+    .for-amd-description {
+        position: absolute;
+        top: 257%;
+        left: 17%;
+    }
+
+    .for-amd-technologies {
+        position: absolute;
+        top: 276%;
+        left: 17%;
+        font-size: 80%;
+    }
+
+    .smbf {
+        position: absolute;
+        top: 210%;
+        left: 57%;
+        width: 28%;
+        height: 33%;
+        background-color: #8DA9C4;
+        border-radius: 3%;
+    }
+
+    .smbf-description {
+        position: absolute;
+        top: 230%;
+        left: 59%;
+    }
+
+    .smbf-technologies {
+        position: absolute;
+        top: 239%;
+        left: 59%;
+        font-size: 80%;
+    }
+    
+    .portfolio {
+        position: absolute;
+        top: 247%;
+        left: 57%;
+        width: 28%;
+        height: 33%;
+        background-color: #8DA9C4;
+        border-radius: 3%;
+    }
+
+    .portfolio-photo {
+        position: absolute;
+        top: 249%;
+        left: 58%;
+        height: 29%;
+        border-radius: 2%;
+    }
+
+    .portfolio-description {
+        position: absolute;
+        top: 267%;
+        left: 59%;
+    }
+
+    .portfolio-technologies {
+        position: absolute;
+        top: 276%;
+        left: 59%;
+        font-size: 80%;
+    }
+    .baseball {
+        position: absolute;
+        top: 210%;
+        left: 15%;
+        width: 34%;
+        height: 70%;
+        background-color: #8DA9C4;
+        border-radius: 2%;
+    }
+
+    .mobile-money {
+        position: absolute;
+        top: 210%;
+        left: 51%;
+        width: 34%;
+        height: 70%;
+        background-color: #8DA9C4;
+        border-radius: 2%;
+    }
+
+    .projects-bottom {
+        position: absolute;
+        top: 285%;
+        visibility: hidden;
+    }
+}
