@@ -1,99 +1,505 @@
-.title {
-    position: absolute;
-    font-size: 500%;
-    top: 100%;
-    left: 5%;
-    width: 50%;
-}
 
-.horizontal-line {
-    position: absolute;
-    top: 104%;
-    left: 35%;
-    width: 20%;
-    height: 2px;
-    background-color: black;
-  }
-  
-  
-.about-description {
-    position: absolute;
-    top: 115%;
-    left: 5%;
-    width: 40%;
+@media (min-width: 1441px){
+    .title {
+        position: absolute;
+        font-size: 500%;
+        top: 100%;
+        left: 5%;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .horizontal-line {
+        position: absolute;
+        top: 104%;
+        left: 30%;
+        width: 20%;
+        height: 2px;
+        background-color: black;
+    }
     
-    font-size: 125%;
-}
-
-.grid-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    list-style: none;
-    /* padding-left: 0; */
-}
-
-.grid-list li:before {
-    content: 'x';
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}  
-
-.about-education {
-    position: absolute;
-    top: 110%;
-    left: 55%;
-    width: 40%;
     
-    font-size: 400%;
+    .about-description {
+        position: absolute;
+        top: 115%;
+        left: 5%;
+        width: 40%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 130%;
+    }
+
+    .grid-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        /* padding-left: 0; */
+    }
+
+    .grid-list li:before {
+        content: 'x';
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }  
+
+    .about-education {
+        position: absolute;
+        top: 110%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 400%;
+    }
+
+    .about-education h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-education h3 {
+        position: absolute;
+        top: 125%;
+        left: 60%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .about-education p {
+        position: absolute;
+        top: 170%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 140%;
+    }
+
+    .about-experience-1 {
+        position: absolute;
+        top: 150%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 400%;
+    }
+
+    .about-experience-1 h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-experience-1 h3 {
+        position: absolute;
+        top: 125%;
+        left: 60%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+    }
+
+    .about-experience-1 p {
+        position: absolute;
+        top: 185%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 95%;
+    }
+    .about-experience-2 {
+        position: absolute;
+        top: 170%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 400%;
+    }
+
+    .about-experience-2 h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-experience-2 h3 {
+        position: absolute;
+        margin-top: 5%;
+        left: 60%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+    }
+
+    .about-experience-2 p {
+        position: absolute;
+        margin-top: 10%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 95%;
+    }
+
+    .about-bottom {
+        position: absolute;
+        top: 195%;
+        visibility: hidden;
+    }
 }
 
-.about-education h2 {
-    position: absolute;
-    left: 10%;
+
+@media (max-width: 1440px){
+    .title {
+        position: absolute;
+        font-size: 450%;
+        top: 100%;
+        left: 5%;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .horizontal-line {
+        position: absolute;
+        top: 104%;
+        left: 35%;
+        width: 15%;
+        height: 2px;
+        background-color: black;
+    }
     
-    font-weight: 400;
-    font-size: 50%;
-}
-
-.about-education p {
-    position: absolute;
-    top: 170%;
-    left: 10%;
-
-    font-size: 30%;
-    line-height: 120%;
-}
-
-.about-experience {
-    position: absolute;
-    top: 150%;
-    left: 55%;
-    width: 40%;
     
-    font-size: 400%;
+    .about-description {
+        position: absolute;
+        top: 115%;
+        left: 5%;
+        width: 40%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 100%;
+    }
+
+    .grid-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        /* padding-left: 0; */
+    }
+
+    .grid-list li:before {
+        content: 'x';
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }  
+
+    .about-education {
+        position: absolute;
+        top: 110%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 325%;
+    }
+
+    .about-education h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-education h3 {
+        position: absolute;
+        top: 125%;
+        left: 60%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .about-education p {
+        position: absolute;
+        top: 170%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 150%;
+    }
+
+    .about-experience-1 {
+        position: absolute;
+        top: 150%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 325%;
+    }
+
+    .about-experience-1 h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-experience-1 h3 {
+        position: absolute;
+        top: 125%;
+        left: 60%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+    }
+
+    .about-experience-1 p {
+        position: absolute;
+        top: 185%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 95%;
+    }
+    .about-experience-2 {
+        position: absolute;
+        top: 170%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 325%;
+    }
+
+    .about-experience-2 h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-experience-2 h3 {
+        position: absolute;
+        margin-top: 5%;
+        left: 60%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+    }
+
+    .about-experience-2 p {
+        position: absolute;
+        margin-top: 10%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 150%;
+    }
+
+    .about-bottom {
+        position: absolute;
+        top: 195%;
+        visibility: hidden;
+    }
 }
 
-.about-experience h2 {
-    position: absolute;
-    left: 10%;
+@media (max-width: 1440px){
+    .title {
+        position: absolute;
+        font-size: 450%;
+        top: 100%;
+        left: 5%;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .horizontal-line {
+        position: absolute;
+        top: 104%;
+        left: 35%;
+        width: 15%;
+        height: 2px;
+        background-color: black;
+    }
     
-    font-weight: 400;
-    font-size: 50%;
-}
+    
+    .about-description {
+        position: absolute;
+        top: 115%;
+        left: 5%;
+        width: 40%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 100%;
+    }
 
-.about-experience p {
-    position: absolute;
-    top: 190%;
-    left: 10%;
+    .grid-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        /* padding-left: 0; */
+    }
 
-    font-size: 30%;
-    line-height: 120%;
-}
+    .grid-list li:before {
+        content: 'x';
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }  
 
-.about-bottom {
-    position: absolute;
-    top: 195%;
-    visibility: hidden;
+    .about-education {
+        position: absolute;
+        top: 110%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 325%;
+    }
+
+    .about-education h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-education h3 {
+        position: absolute;
+        top: 125%;
+        left: 60%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .about-education p {
+        position: absolute;
+        top: 170%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 150%;
+    }
+
+    .about-experience-1 {
+        position: absolute;
+        top: 150%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 325%;
+    }
+
+    .about-experience-1 h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-experience-1 h3 {
+        position: absolute;
+        top: 125%;
+        left: 60%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+    }
+
+    .about-experience-1 p {
+        position: absolute;
+        top: 185%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 95%;
+    }
+    .about-experience-2 {
+        position: absolute;
+        top: 170%;
+        left: 55%;
+        width: 40%;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 325%;
+    }
+
+    .about-experience-2 h2 {
+        position: absolute;
+        left: 10%;
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+    }
+
+    .about-experience-2 h3 {
+        position: absolute;
+        margin-top: 5%;
+        left: 60%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        font-weight: 400;
+    }
+
+    .about-experience-2 p {
+        position: absolute;
+        margin-top: 10%;
+        left: 12%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30%;
+        line-height: 150%;
+    }
+
+    .about-bottom {
+        position: absolute;
+        top: 195%;
+        visibility: hidden;
+    }
 }

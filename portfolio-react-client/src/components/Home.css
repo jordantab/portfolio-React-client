@@ -5,6 +5,7 @@
     top: 30%;
     left: 20%;
 
+    font-family: 'Raleway', sans-serif;
     font-size: 550%;
 }
 
@@ -13,6 +14,7 @@
     top: 43%;
     left: 20%;
     width: 42%;
+    font-family: 'Open Sans', sans-serif;
     font-size: 140%;
 }
 
@@ -33,6 +35,7 @@
     width: 10%;
     color: white;
     font-size: 120%;
+    font-family: 'Open Sans', sans-serif;
     background-color: #E63946;
     border-radius: 10%;
     border: none;
@@ -47,6 +50,7 @@
     width: 10%;
     color: black;
     font-size: 120%;
+    font-family: 'Open Sans', sans-serif;
     background-color: transparent;
     border-radius: 10%;
     border: 1px solid black;
@@ -67,6 +71,7 @@
         position: absolute;
         top: 30%;
         left: 15%;
+        font-family: 'Raleway', sans-serif;
         font-size: 550%;
     }
     
@@ -74,7 +79,8 @@
         position: absolute;
         top: 43%;
         left: 15%;
-        width: 42%;
+        width: 45%;
+        font-family: 'Open Sans', sans-serif;
         font-size: 105%;
     }
     
@@ -128,6 +134,7 @@
         position: absolute;
         top: 20%;
         left: 15%;
+        font-family: 'Raleway', sans-serif;
         font-size: 300%;
     }
     
@@ -136,6 +143,7 @@
         top: 30%;
         left: 15%;
         width: 50%;
+        font-family: 'Open Sans', sans-serif;
         font-size: 80%;
     }
     
@@ -150,12 +158,13 @@
     
     .learn-more {
         position: absolute;
-        top: 40%;
+        top: 42%;
         left: 15%;
         height: 5%;
         width: 15%;
         color: white;
         font-size: 80%;
+        font-family: 'Open Sans', sans-serif;
         background-color: #E63946;
         border-radius: 10%;
         border: none;
@@ -164,12 +173,13 @@
     
     .contact-me {
         position: absolute;
-        top: 40%;
+        top: 42%;
         left: 35%;
         height: 5%;
         width: 15%;
         color: black;
         font-size: 80%;
+        font-family: 'Open Sans', sans-serif;
         background-color: transparent;
         border-radius: 10%;
         border: 1px solid black;
@@ -189,6 +199,7 @@
         position: absolute;
         top: 20%;
         left: 20%;
+        font-family: 'Raleway', sans-serif;
         font-size: 300%;
     }
     
@@ -197,6 +208,7 @@
         top: 30%;
         left: 20%;
         width: 65%;
+        font-family: 'Open Sans', sans-serif;
         font-size: 70%;
     }
     
@@ -217,6 +229,7 @@
         width: 20%;
         color: white;
         font-size: 70%;
+        font-family: 'Open Sans', sans-serif;
         background-color: #E63946;
         border-radius: 10%;
         border: none;
@@ -231,6 +244,7 @@
         width: 20%;
         color: black;
         font-size: 70%;
+        font-family: 'Open Sans', sans-serif;
         background-color: transparent;
         border-radius: 10%;
         border: 1px solid black;
