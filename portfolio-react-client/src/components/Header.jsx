@@ -1,8 +1,12 @@
 import React from 'react';
 import './Header.css'
-import About from './About'
 
 function Header() {
+
+  const openResume = () => {
+    window.open('/resume', "_blank");
+  };
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -21,8 +25,10 @@ function Header() {
       <div className="header-item" onClick={() => scrollToSection('contact')}>
         Contact
       </div>
-      <div className="header-item" onClick={() => scrollToSection('resume')}>
+      <div className="header-item" onClick={openResume}>
+        <div className="resume-button">
         Resume
+        </div>
       </div>
     </div>
   );

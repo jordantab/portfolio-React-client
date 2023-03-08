@@ -16,6 +16,31 @@ const Projects = () => {
         setMenuChoice('ml')
     }
 
+    const openforAMDGitHub = () => {
+        window.open("https://github.com/jordantab/forAMD-frontend");
+    }
+
+    const openforAMDLink = () => {
+        window.open("https://foramd.com");
+    }
+
+    const openSMBFGitHub = () => {
+        window.open("https://github.com/jordantab/411");
+    }
+
+    const openSMBFLink = () => {
+        window.open("https://jordantab.com");
+    }
+
+    const openPortfolioGitHub = () => {
+        window.open("https://github.com/jordantab/portfolio-React-client");
+    }
+
+    const openPortfolioLink = () => {
+        window.open("https://jordantab.com");
+    }
+
+
     return (
         <div>
             {menuChoice === 'fsd' ? 
@@ -48,18 +73,14 @@ const Projects = () => {
                 REACT&nbsp; &nbsp;DJANGO&nbsp; &nbsp;MONGODB&nbsp; &nbsp;GOOGLE PHOTOS API&nbsp; &nbsp;HEROKU&nbsp; &nbsp;NETLIFY
             </div>
             <div className="for-amd-github">
-                <a href="https://github.com/jordantab/forAMD-frontend">
-                    <button>
-                        <FaGithubSquare size={30}/>
-                    </button>
-                </a>
+                <button onClick={openforAMDGitHub}>
+                    <FaGithubSquare size={30}/>
+                </button>
             </div>
             <div className="for-amd-link">
-                <a href="https://foramd.com">
-                    <button>
+                    <button onClick={openforAMDLink}>
                         <BsBoxArrowUpRight size={30}/>
                     </button>
-                </a>
             </div>
             <div className="smbf"></div>
             <div className="smbf-description">
@@ -71,18 +92,14 @@ const Projects = () => {
                 REACT&nbsp; &nbsp;DJANGO&nbsp; &nbsp;MONGODB&nbsp; &nbsp;FOOTBALL API&nbsp; &nbsp;YELP API
             </div>
             <div className="smbf-github">
-                <a href="https://github.com/jordantab/411">
-                    <button>
-                        <FaGithubSquare size={30}/>
-                    </button>
-                </a>
+                <button onClick={openSMBFGitHub}>
+                    <FaGithubSquare size={30}/>
+                </button>
             </div>
             <div className="smbf-link">
-                <a href="https://jordantab.com">
-                    <button>
-                        <BsBoxArrowUpRight size={30}/>
-                    </button>
-                </a>
+                <button onClick={openSMBFLink}>
+                    <BsBoxArrowUpRight size={30}/>
+                </button>
             </div>
             <div className="portfolio"></div>
             <img src={portfolio} alt='portfolio' className='portfolio-photo'/>
@@ -95,18 +112,14 @@ const Projects = () => {
             REACT&nbsp; &nbsp;FIGMA&nbsp; &nbsp;HEROKU&nbsp; &nbsp;
             </div>
             <div className="portfolio-github">
-                <a href="https://github.com/jordantab/portfolio-React-client">
-                    <button>
-                        <FaGithubSquare size={30}/>
-                    </button>
-                </a>
+                <button onClick={openPortfolioGitHub}>
+                    <FaGithubSquare size={30}/>
+                </button>
             </div>
             <div className="portfolio-link">
-                <a href="https://jordantab.com">
-                    <button>
-                        <BsBoxArrowUpRight size={30}/>
-                    </button>
-                </a>
+                <button onClick={openPortfolioLink}>
+                    <BsBoxArrowUpRight size={30}/>
+                </button>
             </div>
             <div className="projects-bottom" id="projects">hey</div>
             </>
