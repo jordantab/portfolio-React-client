@@ -70,7 +70,7 @@
         top: 210%;
         left: 15%;
         width: 40%;
-        height: 70%;
+        height: 95%;
         background-color: #8DA9C4;
         border-radius: 2%;
     }
@@ -78,83 +78,214 @@
     .for-amd-photo {
         position: absolute;
         top: 212%;
-        left: 17%;
-        height: 42%;
+        left: 16%;
+        height: 63%;
         border-radius: 2%;
     }
 
     .for-amd-description {
         position: absolute;
-        top: 257%;
-        left: 17%;
+        top: 275%;
+        left: 16%;
+    }
+    
+    .for-amd-description h2 {
+        line-height: 40%;
+        font-family: 'Raleway';
+    }
+
+    .for-amd-description p {
+        width: 45%;
+        font-family: 'Open Sans';
     }
 
     .for-amd-technologies {
         position: absolute;
-        top: 276%;
-        left: 17%;
+        top: 302%;
+        left: 16%;
         font-size: 80%;
     }
 
+    .for-amd-github {
+        position: absolute;
+        top: 300.5%;
+        left: 49%;
+    }
+    
+    .for-amd-github a {
+        text-decoration: none;
+    }
+    
+    .for-amd-github button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .for-amd-link {
+        position: absolute;
+        top: 300.1%;
+        left: 51.5%;
+    }
+    
+    .for-amd-link a {
+        text-decoration: none;
+    }
+    
+    .for-amd-link button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    
     .smbf {
         position: absolute;
         top: 210%;
         left: 57%;
         width: 28%;
-        height: 33%;
+        height: 46%;
         background-color: #8DA9C4;
         border-radius: 3%;
     }
 
     .smbf-description {
         position: absolute;
-        top: 230%;
-        left: 59%;
+        top: 239%;
+        left: 58%;
+    }
+
+    .smbf-description h2 {
+        line-height: 1%;
+        font-family: 'Raleway';
+        font-size: 125%;
+    }
+
+    .smbf-description p {
+        width: 50%;
+        font-size: 80%;
+        font-family: 'Open Sans';
     }
 
     .smbf-technologies {
         position: absolute;
-        top: 239%;
-        left: 59%;
+        top: 253%;
+        left: 58%;
         font-size: 80%;
+    }
+
+    .smbf-github {
+        position: absolute;
+        top: 247.6%;
+        left: 81.3%;
+    }
+    
+    .smbf-github a {
+        text-decoration: none;
+    }
+    
+    .smbf-github button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .smbf-link {
+        position: absolute;
+        top: 243.5%;
+        left: 81.5%;
+    }
+    
+    .smbf-link a {
+        text-decoration: none;
+    }
+    
+    .smbf-link button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
     }
     
     .portfolio {
         position: absolute;
-        top: 247%;
+        top: 259%;
         left: 57%;
         width: 28%;
-        height: 33%;
+        height: 46%;
         background-color: #8DA9C4;
         border-radius: 3%;
     }
 
     .portfolio-photo {
         position: absolute;
-        top: 249%;
-        left: 58%;
+        top: 260.5%;
+        left: 57.9%;
         height: 29%;
         border-radius: 2%;
     }
 
     .portfolio-description {
         position: absolute;
-        top: 267%;
-        left: 59%;
+        top: 290%;
+        left: 58%;
+    }
+
+    .portfolio-description h2 {
+        line-height: 1%;
+        font-family: 'Raleway';
+        font-size: 125%;
+    }
+
+    .portfolio-description p {
+        width: 60%;
+        font-size: 80%;
+        font-family: 'Open Sans';
     }
 
     .portfolio-technologies {
         position: absolute;
-        top: 276%;
-        left: 59%;
+        top: 302%;
+        left: 58%;
         font-size: 80%;
     }
+
+    .portfolio-github {
+        position: absolute;
+        top: 300.5%;
+        left: 79%;
+    }
+    
+    .portfolio-github a {
+        text-decoration: none;
+    }
+    
+    .portfolio-github button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .portfolio-link {
+        position: absolute;
+        top: 300.1%;
+        left: 81.5%;
+    }
+    
+    .portfolio-link a {
+        text-decoration: none;
+    }
+    
+    .portfolio-link button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
     .baseball {
         position: absolute;
         top: 210%;
         left: 15%;
         width: 34%;
-        height: 70%;
+        height: 90%;
         background-color: #8DA9C4;
         border-radius: 2%;
     }
@@ -164,14 +295,14 @@
         top: 210%;
         left: 51%;
         width: 34%;
-        height: 70%;
+        height: 90%;
         background-color: #8DA9C4;
         border-radius: 2%;
     }
 
     .projects-bottom {
         position: absolute;
-        top: 285%;
+        top: 185%;
         visibility: hidden;
     }
 }
