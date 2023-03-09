@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div className='background-wave'></div>
             <button className='learn-more' onClick={() => scrollToSection('about')}>LEARN MORE</button>
-            <button className='contact-me'>CONTACT ME</button>
+            <button className='contact-me'onClick={() => scrollToSection('contact')}>CONTACT ME</button>
             <img src={headshot} alt='headshot' className='headshot'/>
         </div>
     )

@@ -11,7 +11,7 @@ function HomePage () {
             <Home/>
             <About/>
             <Projects/>
-            {/* <Contact/> */}
+            <Contact/>
         </div>
     )
 }
