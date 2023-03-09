@@ -72,7 +72,7 @@
         width: 40%;
         height: 95%;
         background-color: #D9D9D9;
-        border-radius: 2%;
+        border-radius: 1%;
     }
 
     .for-amd-photo {
@@ -145,7 +145,7 @@
         width: 28%;
         height: 46%;
         background-color: #D9D9D9;
-        border-radius: 3%;
+        border-radius: 1%;
     }
 
     .smbf-description {
@@ -212,7 +212,7 @@
         width: 28%;
         height: 46%;
         background-color: #D9D9D9;
-        border-radius: 3%;
+        border-radius: 1%;
     }
 
     .portfolio-photo {
@@ -220,7 +220,7 @@
         top: 260.5%;
         left: 57.9%;
         height: 29%;
-        border-radius: 2%;
+        border-radius: 1%;
     }
 
     .portfolio-description {

@@ -4,6 +4,9 @@ import emailjs from 'emailjs-com'
 import { useRef } from 'react'
 import {FaGithubSquare} from 'react-icons/fa'
 import {ImLinkedin2} from 'react-icons/im'
+import {BsFillTelephoneFill} from 'react-icons/bs'
+import {MdOutlineMailOutline} from 'react-icons/md'
+import {MdLocationPin} from 'react-icons/md'
 
 const Contact = () => {
     const name = useRef()
@@ -16,6 +19,26 @@ const Contact = () => {
     
     function openLinkedIn () {
         window.open("https://www.linkedin.com/in/jordantab/");
+    }
+
+    function sendEmail () {
+        console.log("trying")
+        const serviceID = 'service_bf951rj'
+        const templateID = 'personal_website'
+        const userID = 'zmoPJucrxBZpB4YS2'
+        const templateParams = {
+            from_name: name.current.value,
+            to_name: "Jordan Tab",
+            message: message.current.value,
+            reply_to: email.current.value
+        }
+
+        emailjs.send(serviceID, templateID, templateParams, userID)
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            }, (error) => {
+                console.log('FAILED...', error);
+            });
     }
 
     return (
@@ -49,14 +72,29 @@ const Contact = () => {
             <div className="email-message-input">
                <textarea className=""ref={message} rows="12" cols="34" placeholder="MESSAGE"/>
             </div>
-            <button className='send-email'>SEND</button>
+            <button onClick={sendEmail} className='send-email'>SEND</button>
             <button className="github" onClick={openGitHub}>
-                <FaGithubSquare size={30}/>
+                <FaGithubSquare size={20}/>
             </button>
             <button className="linkedin" onClick={openLinkedIn}>
-                <ImLinkedin2 size={30}/>
+                <ImLinkedin2 size={20}/>
             </button>
-            <div className="contact-footer" id="contact"></div>
+            <div className="contact-footer" id="contact">
+                <div className="footer-icons">
+                    <div className="icon-wrapper">
+                        <div className="icon-item"><BsFillTelephoneFill /></div>
+                        <div className="icon-text">+1 (858) 232-7521</div>
+                    </div>
+                    <div className="icon-wrapper">
+                        <div className="icon-item"><MdOutlineMailOutline /></div>
+                        <div className="icon-text">jordantab20@gmail.com</div>
+                    </div>
+                    <div className="icon-wrapper">
+                        <div className="icon-item"><MdLocationPin /></div>
+                        <div className="icon-text">Boston, MA</div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
