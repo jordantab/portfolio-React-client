@@ -502,3 +502,14 @@
         visibility: hidden;
     }
 }
+
+@media (max-width: 600px) {
+    .title {
+        position: absolute;
+        font-size: 100%;
+        top: 100%;
+        left: 5%;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+}
