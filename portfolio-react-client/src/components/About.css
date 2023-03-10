@@ -504,22 +504,21 @@
 }
 
 @media (max-width: 600px) {
-    .temp {
+    /* .temp {
         position: absolute;
-    }
+    } */
     .title {
         position: absolute;
-        font-size: 400%;
-        top: 100%;
-        left: 0;
-        width: 10px;
+        font-size: 25px;
+        top: 70%;
+        left: 5%;
         font-family: 'Raleway', sans-serif;
     }
 
     .horizontal-line {
         position: absolute;
-        top: 104%;
-        left: 0;
+        top: 71%;
+        left: 40%;
         width: 12%;
         height: 2px;
         background-color: black;

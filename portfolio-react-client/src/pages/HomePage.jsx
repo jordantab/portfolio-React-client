@@ -9,7 +9,7 @@ function HomePage () {
         <div>
             {/* <Header/> */}
             <Home/>
-            {/* <About/> */}
+            <About/>
             {/* <Projects/> */}
             {/* <Contact/> */}
         </div>

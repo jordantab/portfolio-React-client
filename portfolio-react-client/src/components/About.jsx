@@ -7,7 +7,7 @@ const About = () => {
                 ABOUT ME
             </div>
             <hr className='horizontal-line'/>
-            <div className="about-description">
+            {/* <div className="about-description">
                 I'm an undergraduate <b>senior student-athlete</b> at <b>Boston University</b>, pursuing a dual-degree in <b>computer 
                 science and business administration</b> with a concentration in <b>business analytics</b>. I'm also a member of the 
                 Boston University NCAA Division 1 <b>Varsity Men's Basketball</b> team. Currently, I'm looking for <b>full-time software engineering 
@@ -62,7 +62,7 @@ const About = () => {
                 <h2>Invite Education LLC.</h2>
                 <h3>Summer 2021</h3>
                 <p>Summer Intern</p>
-            </div>
+            </div> */}
             <br></br>
             <div className="about-bottom" id="about">hey</div>
         </div >
