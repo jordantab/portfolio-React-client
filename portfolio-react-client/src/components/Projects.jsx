@@ -74,12 +74,12 @@ const Projects = () => {
             </div>
             <div className="for-amd-github">
                 <button onClick={openforAMDGitHub}>
-                    <FaGithubSquare size={30}/>
+                    <FaGithubSquare size={20}/>
                 </button>
             </div>
             <div className="for-amd-link">
                     <button onClick={openforAMDLink}>
-                        <BsBoxArrowUpRight size={30}/>
+                        <BsBoxArrowUpRight size={20}/>
                     </button>
             </div>
             <div className="smbf"></div>
@@ -93,12 +93,12 @@ const Projects = () => {
             </div>
             <div className="smbf-github">
                 <button onClick={openSMBFGitHub}>
-                    <FaGithubSquare size={30}/>
+                    <FaGithubSquare size={20}/>
                 </button>
             </div>
             <div className="smbf-link">
                 <button onClick={openSMBFLink}>
-                    <BsBoxArrowUpRight size={30}/>
+                    <BsBoxArrowUpRight size={20}/>
                 </button>
             </div>
             <div className="portfolio"></div>
@@ -109,16 +109,16 @@ const Projects = () => {
                     to learn more about me and my work.</p>
             </div>
             <div className="portfolio-technologies">
-            REACT&nbsp; &nbsp;FIGMA&nbsp; &nbsp;HEROKU&nbsp; &nbsp;
+            REACT&nbsp; &nbsp;FIGMA&nbsp; &nbsp;HEROKU&nbsp; &nbsp;EMAILJS&nbsp; &nbsp;
             </div>
             <div className="portfolio-github">
                 <button onClick={openPortfolioGitHub}>
-                    <FaGithubSquare size={30}/>
+                    <FaGithubSquare size={20}/>
                 </button>
             </div>
             <div className="portfolio-link">
                 <button onClick={openPortfolioLink}>
-                    <BsBoxArrowUpRight size={30}/>
+                    <BsBoxArrowUpRight size={20}/>
                 </button>
             </div>
             <div className="projects-bottom" id="projects">hey</div>

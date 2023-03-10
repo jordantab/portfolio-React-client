@@ -336,10 +336,10 @@
     }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1366px){
     .title {
         position: absolute;
-        font-size: 450%;
+        font-size: 400%;
         top: 100%;
         left: 5%;
         width: 50%;
@@ -349,16 +349,15 @@
     .horizontal-line {
         position: absolute;
         top: 104%;
-        left: 35%;
-        width: 15%;
+        left: 33%;
+        width: 12%;
         height: 2px;
         background-color: black;
     }
     
-    
     .about-description {
         position: absolute;
-        top: 115%;
+        top: 113%;
         left: 5%;
         width: 40%;
         
@@ -394,7 +393,7 @@
 
     .about-education h2 {
         position: absolute;
-        left: 10%;
+        left: 0;
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -415,7 +414,7 @@
     .about-education p {
         position: absolute;
         top: 170%;
-        left: 12%;
+        left: 0;
 
         font-family: 'Open Sans', sans-serif;
         font-size: 30%;
@@ -434,7 +433,7 @@
 
     .about-experience-1 h2 {
         position: absolute;
-        left: 10%;
+        left: 0;
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -453,11 +452,11 @@
     .about-experience-1 p {
         position: absolute;
         top: 185%;
-        left: 12%;
+        left: 0;
 
         font-family: 'Open Sans', sans-serif;
         font-size: 30%;
-        line-height: 95%;
+        line-height: 50%;
     }
     .about-experience-2 {
         position: absolute;
@@ -471,7 +470,7 @@
 
     .about-experience-2 h2 {
         position: absolute;
-        left: 10%;
+        left: 0;
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -490,7 +489,7 @@
     .about-experience-2 p {
         position: absolute;
         margin-top: 10%;
-        left: 12%;
+        left: 0;
 
         font-family: 'Open Sans', sans-serif;
         font-size: 30%;
