@@ -510,14 +510,14 @@
     .title {
         position: absolute;
         font-size: 25px;
-        top: 70%;
+        top: 85%;
         left: 5%;
         font-family: 'Raleway', sans-serif;
     }
 
     .horizontal-line {
         position: absolute;
-        top: 71%;
+        top: 86%;
         left: 40%;
         width: 12%;
         height: 2px;

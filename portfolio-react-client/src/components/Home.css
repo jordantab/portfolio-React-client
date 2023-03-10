@@ -267,11 +267,11 @@
 
     .home-description {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 5%;
         width: 88%;
         font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .background-wave {
@@ -279,13 +279,13 @@
         left: 0%;
         width: 100%;
         height: 35%;
-        top: 32%;
+        top: 45%;
         background: linear-gradient(180deg, rgba(254, 250, 224, 0) 0%, rgba(69, 123, 157, 0.31) 100%);
     }
 
     .learn-more {
         position: absolute;
-        top: 26%;
+        top: 38%;
         left: 20%;
         height: 4%;
         width: 25%;
@@ -300,7 +300,7 @@
 
     .contact-me {
         position: absolute;
-        top: 26%;
+        top: 38%;
         left: 60%;
         height: 4%;
         width: 25%;
@@ -315,7 +315,7 @@
 
     .headshot {
         position: absolute;
-        top: 32%;
+        top: 45%;
         left: 27%;
         height: 35%;
     }
