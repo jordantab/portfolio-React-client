@@ -7,11 +7,11 @@ import Contact from '../components/Contact'
 function HomePage () {
     return (
         <div>
-            {/* <Header/> */}
+            <Header/>
             <Home/>
             <About/>
-            {/* <Projects/> */}
-            {/* <Contact/> */}
+            <Projects/>
+            <Contact/>
         </div>
     )
 }
