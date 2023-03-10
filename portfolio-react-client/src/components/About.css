@@ -518,7 +518,7 @@
     .horizontal-line {
         position: absolute;
         top: 89%;
-        left: 45%;
+        left: 50%;
         width: 12%;
         height: 1px;
         background-color: black;
@@ -551,7 +551,7 @@
 
     .about-education {
         position: absolute;
-        top: 200%;
+        top: 210%;
         left: 5%;
         width: 95%;
         
@@ -591,7 +591,7 @@
 
     .about-experience-1 {
         position: absolute;
-        top: 227%;
+        top: 237%;
         left: 5%;
         width: 95%;
         
@@ -629,7 +629,7 @@
 
     .about-experience-2 {
         position: absolute;
-        top: 240%;
+        top: 250%;
         left: 5%;
         width: 100%;
         
