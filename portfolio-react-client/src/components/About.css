@@ -551,12 +551,12 @@
 
     .about-education {
         position: absolute;
-        top: 210%;
+        top: 220%;
         left: 5%;
         width: 95%;
         
         font-family: 'Raleway', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .about-education h2 {
@@ -591,12 +591,12 @@
 
     .about-experience-1 {
         position: absolute;
-        top: 237%;
+        top: 247%;
         left: 5%;
         width: 95%;
         
         font-family: 'Raleway', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .about-experience-1 h2 {
@@ -629,7 +629,7 @@
 
     .about-experience-2 {
         position: absolute;
-        top: 250%;
+        top: 260%;
         left: 5%;
         width: 100%;
         
