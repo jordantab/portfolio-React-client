@@ -280,13 +280,13 @@
         left: 0%;
         width: 100%;
         height: 35%;
-        top: 20%;
+        top: 30%;
         background: linear-gradient(180deg, rgba(254, 250, 224, 0) 0%, rgba(69, 123, 157, 0.31) 100%);
     }
     
     .learn-more {
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: 20%;
         height: 4%;
         width: 25%;
@@ -301,10 +301,10 @@
     
     .contact-me {
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: 60%;
-        height: 3%;
-        width: 20%;
+        height: 4%;
+        width: 25%;
         color: black;
         font-size: 70%;
         font-family: 'Open Sans', sans-serif;
@@ -316,8 +316,8 @@
     
     .headshot {
         position: absolute;
-        top: 25%;
-        left: 30%;
-        height: 30%;
+        top: 30%;
+        left: 27%;
+        height: 35%;
     }
 }
