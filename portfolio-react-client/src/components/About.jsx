@@ -38,7 +38,7 @@ const About = () => {
                 </ul>
 
             </div>
-            {/* <div className="about-education">
+            <div className="about-education">
                 EDUCATION
                 <h2>Boston University</h2>
                 <h3>2019 - 2023</h3>
@@ -62,7 +62,7 @@ const About = () => {
                 <h2>Invite Education LLC.</h2>
                 <h3>Summer 2021</h3>
                 <p>Summer Intern</p>
-            </div> */}
+            </div>
             <br></br>
             <div className="about-bottom" id="about">hey</div>
         </div >

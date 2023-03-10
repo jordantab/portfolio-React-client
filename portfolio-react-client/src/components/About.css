@@ -540,7 +540,6 @@
         grid-gap: 10px;
         list-style: none;
         font-family: 'Open Sans', sans-serif;
-        /* padding-left: 0; */
     }
 
     .grid-list li:before {
@@ -552,12 +551,12 @@
 
     .about-education {
         position: absolute;
-        top: 110%;
-        left: 0;
-        width: 40%;
+        top: 200%;
+        left: 5%;
+        width: 95%;
         
         font-family: 'Raleway', sans-serif;
-        font-size: 325%;
+        font-size: 30px;
     }
 
     .about-education h2 {
@@ -566,16 +565,16 @@
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
-        font-size: 50%;
+        font-size: 16px;
     }
 
     .about-education h3 {
         position: absolute;
-        top: 125%;
-        left: 0;
+        top: 100%;
+        left: 65%;
 
         font-family: 'Open Sans', sans-serif;
-        font-size: 30%;
+        font-size: 14px;
         font-weight: 400;
         line-height: 150%;
     }
@@ -586,18 +585,18 @@
         left: 0;
 
         font-family: 'Open Sans', sans-serif;
-        font-size: 30%;
+        font-size: 14px;
         line-height: 150%;
     }
 
     .about-experience-1 {
         position: absolute;
-        top: 150%;
-        left: 0;
-        width: 40%;
+        top: 227%;
+        left: 5%;
+        width: 95%;
         
         font-family: 'Raleway', sans-serif;
-        font-size: 325%;
+        font-size: 30px;
     }
 
     .about-experience-1 h2 {
@@ -606,15 +605,15 @@
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
-        font-size: 50%;
+        font-size: 16px;
     }
 
     .about-experience-1 h3 {
         position: absolute;
-        top: 125%;
-        left: 0;
+        top: 100%;
+        left: 65%;
         font-family: 'Open Sans', sans-serif;
-        font-size: 30%;
+        font-size: 14px;
         font-weight: 400;
     }
 
@@ -624,17 +623,17 @@
         left: 0;
 
         font-family: 'Open Sans', sans-serif;
-        font-size: 30%;
+        font-size: 14px;
         line-height: 50%;
     }
+
     .about-experience-2 {
         position: absolute;
-        top: 170%;
-        left: 0;
-        width: 40%;
+        top: 240%;
+        left: 5%;
+        width: 100%;
         
         font-family: 'Raleway', sans-serif;
-        font-size: 325%;
     }
 
     .about-experience-2 h2 {
@@ -643,15 +642,15 @@
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
-        font-size: 50%;
+        font-size: 16px;
     }
 
     .about-experience-2 h3 {
         position: absolute;
         margin-top: 5%;
-        left: 0;
+        left: 62%;
         font-family: 'Open Sans', sans-serif;
-        font-size: 30%;
+        font-size: 14px;
         font-weight: 400;
     }
 
@@ -661,13 +660,13 @@
         left: 0;
 
         font-family: 'Open Sans', sans-serif;
-        font-size: 30%;
+        font-size: 14px;
         line-height: 150%;
     }
 
     .about-bottom {
         position: absolute;
-        top: 95%;
+        top: 87%;
         visibility: hidden;
     }
 }
