@@ -260,39 +260,35 @@
 @media (max-width: 600px) {
     .name {
         position: absolute;
-        top: 5%;
-        left: 7%;
+        top: 2%;
+        left: 4%;
         font-family: 'Raleway', sans-serif;
-        font-size: 35px;
+        font-size: 40px;
     }
     
     .home-description {
         position: absolute;
-        top: 12%;
-        left: 0;
-        width: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        top: 10%;
+        left: 5%;
+        width: 88%;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
     }
     
     .background-wave {
         position: absolute;
-        left:0;
-        width: 10%;
-        height: 25%;
+        left: 0%;
+        width: 100%;
+        height: 35%;
         top: 20%;
-    
         background: linear-gradient(180deg, rgba(254, 250, 224, 0) 0%, rgba(69, 123, 157, 0.31) 100%);
     }
     
     .learn-more {
         position: absolute;
-        top: 45%;
+        top: 20%;
         left: 20%;
-        height: 5%;
+        height: 3%;
         width: 20%;
         color: white;
         font-size: 70%;
@@ -305,9 +301,9 @@
     
     .contact-me {
         position: absolute;
-        top: 45%;
-        left: 45%;
-        height: 5%;
+        top: 20%;
+        left: 60%;
+        height: 3%;
         width: 20%;
         color: black;
         font-size: 70%;
@@ -321,7 +317,7 @@
     .headshot {
         position: absolute;
         top: 25%;
-        left: 0;
-        height: 10%;
+        left: 30%;
+        height: 30%;
     }
 }
