@@ -226,7 +226,7 @@
 
     .about-education h2 {
         position: absolute;
-        left: 10%;
+        left: 0%;
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -247,7 +247,7 @@
     .about-education p {
         position: absolute;
         top: 170%;
-        left: 12%;
+        left: 0%;
 
         font-family: 'Open Sans', sans-serif;
         font-size: 30%;
@@ -266,7 +266,7 @@
 
     .about-experience-1 h2 {
         position: absolute;
-        left: 10%;
+        left: 0%;
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -285,7 +285,7 @@
     .about-experience-1 p {
         position: absolute;
         top: 185%;
-        left: 12%;
+        left: 0%;
 
         font-family: 'Open Sans', sans-serif;
         font-size: 30%;
@@ -303,7 +303,7 @@
 
     .about-experience-2 h2 {
         position: absolute;
-        left: 10%;
+        left: 0%;
         
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
@@ -322,7 +322,7 @@
     .about-experience-2 p {
         position: absolute;
         margin-top: 10%;
-        left: 12%;
+        left: 0%;
 
         font-family: 'Open Sans', sans-serif;
         font-size: 30%;
