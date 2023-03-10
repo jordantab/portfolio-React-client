@@ -387,3 +387,197 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 600px) {
+    .contact-title {
+        position: absolute;
+        font-size: 400%;
+        top: 315%;
+        left:0;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .contact-horizontal-line {
+        position: absolute;
+        top: 319.5%;
+        left:0;
+        width: 12%;
+        height: 3px;
+        background-color: black;
+    }
+
+    .contact-photo {
+        position: absolute;
+        top: 331%;
+        left:0;
+        height: 20%;
+        border-radius: 1%;
+    }
+
+    .email {
+        position: absolute;
+        top: 331%;
+        left:0;
+        height: 64%;
+        width: 35%;
+        border-radius: 1%;
+        background-color: #D5D6D9;
+    }
+
+    .email-title {
+        position: absolute;
+        top: 335%;
+        left:0;
+        font-size: 150%;
+        font-family: 'Raleway';
+    }
+
+    .email-sender {
+        position: absolute;
+        top: 352.5%;
+        left:0;
+        font-size: 85%;
+        font-family: 'Raleway';
+    }
+
+    .email-name-input {
+        position: absolute;
+        top: 341%;
+        left:0;
+        color: black;
+    }
+
+    .email-name-input input{
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+        font-family: 'Open Sans';
+        font-size: 90%;
+    }
+
+    .email-address-input {
+        position: absolute;
+        top: 347%;
+        left:0;
+        color: black;
+    }
+
+    .email-address-input input{
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+        font-family: 'Open Sans';
+        font-size: 90%;
+    }
+
+    .email-message-input {
+        position: absolute;
+        top: 353%;
+        left:0;
+        background-color: transparent;
+    }
+    
+    .email-message-input textarea{
+        text-align: left;
+        border: 2px solid black;
+        background-color: transparent;
+        font-family: 'Open Sans';
+        font-size: 90%;
+        color: black;
+        border-radius: 1%;;
+    }
+
+    .send-email {
+        position: absolute;
+        top: 384%;
+        left:0;
+        font-size: 90%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .message-sent {
+        position: absolute;
+        top: 360%;
+        left:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5%;
+        width: 15%;
+        background-color: #EEEFF4;
+        font-family: 'Open Sans';
+        font-size: 120%;
+        border: 1px solid black;
+        border-radius: 1%;
+    }
+
+    .close-icon {
+        position: absolute;
+        top: -5%;
+        right: -3%;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    ::placeholder {
+        color: black;
+    }
+
+    .github {
+        position: absolute;
+        top: 389%;
+        left:0;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+
+    .linkedin {
+        position: absolute;
+        top: 388.9%;
+        left:0;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+
+    .contact-footer {
+        position: absolute;
+        top: 400%;
+        left:0;
+        width: 20%;
+        height: 10%;
+        background-color: #D5D6D9;
+        z-index: 2;
+    }
+    
+    .footer-icons {
+        position: absolute;
+        top: 50%;
+        left:0;
+        right: 0;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20.5%;
+    }
+    
+    .icon-wrapper {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .icon-wrapper:nth-child(2) {
+        margin: 0 auto; /* Center the middle icon horizontally */
+    }
+    
+    .icon-text {
+        margin-top: 0.4rem;
+        font-size: 0.9rem;
+    }
+}

@@ -617,3 +617,312 @@
         visibility: hidden;
     }
 }
+
+@media (max-width: 600px) {
+    .projects-title {
+        position: absolute;
+        font-size: 400%;
+        top: 190%;
+        left: 0%;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projects-horizontal-line {
+        position: absolute;
+        top: 194.5%;
+        left: 0%;
+        width: 12%;
+        height: 3px;
+        background-color: black;
+    }
+
+    .fsd {
+        position: absolute;
+        top: 202%;
+        left: 0%;
+
+        font-size: 120%;
+        font-family: 'Raleway';
+        cursor: pointer;
+    }
+    
+    .ml {
+        position: absolute;
+        top: 202%;
+        left: 0%;
+
+        font-size: 120%;
+        font-family: 'Raleway';
+        cursor: pointer;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 205%;
+        left: 0%;
+        width: 35%;
+        height: 3px;
+        background-color: #DCD5D5;
+    }
+
+    .fsd-bar {
+        position: absolute;
+        top: 205%;
+        left: 0%;
+        width: 19%;
+        height: 3px;
+        background-color: #E63946;
+    }
+
+    .ml-bar {
+        position: absolute;
+        top: 205%;
+        left: 0%;
+        width: 16%;
+        height: 3px;
+        background-color: #E63946;
+    }
+    
+    .for-amd {
+        position: absolute;
+        top: 210%;
+        left: 0%;
+        width: 40%;
+        height: 95%;
+        background-color: #D5D6D9;
+        border-radius: 1%;
+    }
+
+    .for-amd-photo {
+        position: absolute;
+        top: 212%;
+        left: 0%;
+        height: 20%;
+        border-radius: 2%;
+    }
+
+    .for-amd-description {
+        position: absolute;
+        top: 275%;
+        left: 0%;
+        font-size: 1px;
+    }
+    
+    .for-amd-description h2 {
+        line-height: 40%;
+        font-family: 'Raleway';
+    }
+
+    .for-amd-description p {
+        width: 10.5%;
+        font-family: 'Open Sans';
+    }
+
+    .for-amd-technologies {
+        position: absolute;
+        top: 301.5%;
+        left: 0%;
+        font-size: 5px;
+    }
+
+    .for-amd-github {
+        position: absolute;
+        top: 300.7%;
+        left: 0%;
+    }
+    
+    .for-amd-github a {
+        text-decoration: none;
+    }
+    
+    .for-amd-github button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .for-amd-link {
+        position: absolute;
+        top: 300.4%;
+        left: 0%;
+    }
+    
+    .for-amd-link a {
+        text-decoration: none;
+    }
+    
+    .for-amd-link button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .smbf {
+        position: absolute;
+        top: 210%;
+        left: 0%;
+        width: 28%;
+        height: 46%;
+        background-color: #D5D6D9;
+        border-radius: 1%;
+    }
+
+    .smbf-description {
+        position: absolute;
+        top: 238%;
+        left: 0%;
+    }
+
+    .smbf-description h2 {
+        line-height: 1%;
+        font-family: 'Raleway';
+        font-size: 5px;
+    }
+
+    .smbf-description p {
+        width: 1px;
+        font-size: 1px;
+        font-family: 'Open Sans';
+    }
+
+    .smbf-technologies {
+        position: absolute;
+        top: 252.5%;
+        left: 0%;
+        font-size: 12px;
+    }
+
+    .smbf-github {
+        position: absolute;
+        top: 248.5%;
+        left: 0%;
+    }
+    
+    .smbf-github a {
+        text-decoration: none;
+    }
+    
+    .smbf-github button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .smbf-link {
+        position: absolute;
+        top: 244.9%;
+        left: 0%;
+    }
+    
+    .smbf-link a {
+        text-decoration: none;
+    }
+    
+    .smbf-link button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .portfolio {
+        position: absolute;
+        top: 259%;
+        left: 0%;
+        width: 28%;
+        height: 46%;
+        background-color: #D5D6D9;
+        border-radius: 1%;
+    }
+
+    .portfolio-photo {
+        position: absolute;
+        top: 261%;
+        left: 0%;
+        height: 10%;
+        border-radius: 1%;
+    }
+
+    .portfolio-description {
+        position: absolute;
+        top: 289%;
+        left: 0%;
+    }
+
+    .portfolio-description h2 {
+        line-height: 1%;
+        font-family: 'Raleway';
+        font-size: 10px;
+    }
+
+    .portfolio-description p {
+        width: 65%;
+        font-size: 1px;
+        font-family: 'Open Sans';
+    }
+
+    .portfolio-technologies {
+        position: absolute;
+        top: 301.5%;
+        left: 0%;
+        font-size: 12px;
+    }
+
+    .portfolio-github {
+        position: absolute;
+        top: 300.8%;
+        left: 0%;
+    }
+    
+    .portfolio-github a {
+        text-decoration: none;
+    }
+    
+    .portfolio-github button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .portfolio-link {
+        position: absolute;
+        top: 300.5%;
+        left: 0%;
+    }
+    
+    .portfolio-link a {
+        text-decoration: none;
+    }
+    
+    .portfolio-link button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .baseball {
+        position: absolute;
+        top: 210%;
+        left: 0%;
+        width: 34%;
+        height: 90%;
+        background-color: #8DA9C4;
+        border-radius: 2%;
+    }
+
+    .mobile-money {
+        position: absolute;
+        top: 210%;
+        left: 0%;
+        width: 34%;
+        height: 90%;
+        background-color: #8DA9C4;
+        border-radius: 2%;
+    }
+
+    .projects-bottom {
+        position: absolute;
+        top: 187%;
+        visibility: hidden;
+    }
+}
