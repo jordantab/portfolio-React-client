@@ -7,7 +7,7 @@ const About = () => {
                 ABOUT ME
             </div>
             <hr className='horizontal-line'/>
-            {/* <div className="about-description">
+            <div className="about-description">
                 I'm an undergraduate <b>senior student-athlete</b> at <b>Boston University</b>, pursuing a dual-degree in <b>computer 
                 science and business administration</b> with a concentration in <b>business analytics</b>. I'm also a member of the 
                 Boston University NCAA Division 1 <b>Varsity Men's Basketball</b> team. Currently, I'm looking for <b>full-time software engineering 
@@ -38,7 +38,7 @@ const About = () => {
                 </ul>
 
             </div>
-            <div className="about-education">
+            {/* <div className="about-education">
                 EDUCATION
                 <h2>Boston University</h2>
                 <h3>2019 - 2023</h3>
