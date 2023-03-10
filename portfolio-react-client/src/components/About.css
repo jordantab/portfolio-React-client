@@ -631,7 +631,7 @@
         position: absolute;
         top: 260%;
         left: 5%;
-        width: 100%;
+        width: 95%;
         
         font-family: 'Raleway', sans-serif;
     }
@@ -648,7 +648,7 @@
     .about-experience-2 h3 {
         position: absolute;
         margin-top: 5%;
-        left: 62%;
+        left: 65%;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         font-weight: 400;
