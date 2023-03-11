@@ -1,4 +1,4 @@
-import resume from '../pages/JTResume.pdf'
+import resume from '../pages/Jordan Tab Resume.pdf'
 import './Resume.css'
 
 function Resume() {
